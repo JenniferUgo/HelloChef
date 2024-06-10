@@ -20,18 +20,17 @@ body{
 }
 
 /* NAVBAR */
-
 .navbar {  
     grid-area: 'navbar';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;  
+    padding: 30px 0;
 }
 
 .navbar h1 {
     color: #e42a12;
-    font-size: 28px;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: auto;
+    padding: 20px 0;
 }
 
 .navbar .fa-solid {
@@ -387,63 +386,70 @@ body{
 
 
 /* SECTION SIX */
+
 .sectionSix{
-    margin-top: -50px;
+    padding: 80px 20px;
+    background-color: #fff4ee;
 }
 
-.sectionSix .overlay {
-    position: absolute;
-    bottom: -390%;
-    left: 50%;
-    transform: translate(-50%, 100%);
-    width: 90%; 
-}
 
-.sectionSix img{
+.sectionSix .form{
     width: 100%;
-}
-
-.sectionSix .subscribe{
-    margin-top: 80px;
-    padding: 40px 10px;
-    text-align: center;
     background-color: #fff;
     border-radius: 10px;
+    padding: 40px 10px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-.sectionSix h3{
-    font-size: 1.5em;
+.sectionSix .form h2{
+    font-size: 1.6em;
     margin-bottom: 15px;
-    /* color: #484848; */
+    font-weight: 500;
+    color: #484848;
 }
 
-.sectionSix p {
-    font-size: 1em;
-    font-weight: 400;
-    margin-bottom: em;
+.sectionSix .form p{
+    color: #484848;
+    margin-bottom: 30px;
+}
+
+.sectionSix .input{
+    text-align: left;
+}
+
+.sectionSix .input label{
     color: #757575;
+    font-size: .9em;
+    font-weight: 300;
+    margin-bottom: 5px;
 }
 
-.sectionSix button {
+.sectionSix .input input{
+    height: 50px;
+    width: 70%;
+    border: none;
+    border: solid 1px #757575;
+    border-right: none;
+    border-radius: 5px 0 0 5px; 
+    margin-right: -5px;
+}
+
+.sectionSix .input button {
     border: none;
     background-color: #e42a12;
     color: #fff;
-    padding: 15px;
-    font-weight: 600;
-    margin-left: -5px;
+    padding: 13px 8px;
+    font-weight: 500;
+    border-radius: 0 5px 5px 0;
 }
 
-.sectionSix input {
-    padding: 13px;
-    border: solid 1px #a3a3a3;
-}
-
-.sectionSix .subscribe-text {
-    background-color: transparent;
+.sectionSix .disclaimer{
     text-align: center;
-    color: #a0a3a9;
-    padding-bottom: 90px;  
-} 
+    font-size: 0.8em;
+    color: #757575;
+    font-weight: 200;
+}
 
 
 /* FOOTER */

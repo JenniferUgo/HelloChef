@@ -1,0 +1,16 @@
+/* TABLETS */
+/* Media queries - a css conditional rules that check the screen size and apply the styles if the rules are met */
+/* Media q */
+@media screen and (max-width:768px){
+    /* targets screen size smaller than 768  */
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    /* targets screen size la */
+    .sectionOne img {
+        height: 40%;
+    }
+}
