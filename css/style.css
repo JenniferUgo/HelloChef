@@ -529,6 +529,7 @@ body{
     padding: 15px;
     font-weight: 600;
     margin-left: -5px;
+    border-radius: 0 5px 5px 0;
 }
 
 .footer-bottom p {
@@ -545,9 +546,10 @@ body{
 }
 
 .copyright{
-    padding: 20px 30px;
+    padding: 10px 0 30px;
     text-align: center;
     font-size: 14px;
+    line-height: 2em;
 }
 
 .copyright .fa-solid{

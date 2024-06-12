@@ -1,16 +1,112 @@
 /* TABLETS */
 /* Media queries - a css conditional rules that check the screen size and apply the styles if the rules are met */
 /* Media q */
-@media screen and (max-width:768px){
-    /* targets screen size smaller than 768  */
-    .navbar {
-        display: none;
-    }
+/* @media screen and (max-width:768px){
+    targets screen size smaller than 768 }
+
+} */
+
+@media screen and (min-width:767px){
+    /* targets screen size larger than 768 */
+
+    /* SECTION ONE */
+ .sectionOne img {
+    height: 550px;
+     object-fit: cover;
+     object-position: bottom;
+ }
+
+.sectionOne .overlay {
+    transform: translate(-50%,-70%);
 }
 
-@media screen and (min-width:768px){
-    /* targets screen size la */
-    .sectionOne img {
-        height: 40%;
-    }
+.sectionOne h1 {
+    font-weight: 700;
+}
+
+.sectionOne p {
+    font-size: 1.1em;
+}
+
+.sectionOne button {
+    width: 80%;
+    font-weight: 600;
+}
+
+/* SECTION TWO */
+
+.sectionTwo {
+    padding: 60px;
+}
+
+.sectionTwo .columns img {
+    height: 300px;
+}
+
+.sectionTwo .column h3{
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+
+.sectionTwo .column p{
+    font-size: 1.1em;
+}
+
+/* SECTION THREE */
+
+.sectionThree .steps{
+    padding: 50px 35px;
+}
+
+.sectionThree p{
+    line-height: 1em;
+    font-size: 1.1em;
+}
+
+.sectionThree button{
+    width: 100%;
+    margin: 30px auto;
+}
+
+.sectionThree img{
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* SECTION FOUR */
+
+.sectionFour p{
+    margin: 20px 0 30px 0;
+}
+
+.sectionFour img{
+    width: 90%;
+    margin: auto;
+    height: 350px;
+}
+
+.sectionFour span{
+    right: 30px;
+    transform: translate(-20%, -50%);
+}
+
+/* SECTION SIX */
+
+
+.sectionSix .input{
+    width: 60%;
+    margin: auto;
+}
+
+/* FOOTER */
+
+.footer-midThree label, input{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
 }
